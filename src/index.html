@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="RU">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nakitel</title> 
+    <link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/main.css" rel="stylesheet" media="all">
+    <script src="libs/jquery-1.5.2.min.js"></script>
+    <script src="libs/jquery.flexslider.js"></script>
+    <link href="libs/flexslider.css" rel="stylesheet" />
+    <link href="libs/font-awesome.min.css" rel="stylesheet" media="all">
+    <script src="js/main.js"></script>
+    <script>
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 1140,
+        slideshow: false
+      });
+    });
+    </script>
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+    //= templates/header.html
+    //= templates/content.html
+    //= templates/footer.html
+</body>
+</html>

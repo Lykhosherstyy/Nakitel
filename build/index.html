@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="RU">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nakitel</title> 
+    <link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link href="css/main.css" rel="stylesheet" media="all">
+    <script src="libs/jquery-1.5.2.min.js"></script>
+    <script src="libs/jquery.flexslider.js"></script>
+    <link href="libs/flexslider.css" rel="stylesheet" />
+    <link href="libs/font-awesome.min.css" rel="stylesheet" media="all">
+    <script src="js/main.js"></script>
+    <script>
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "slide",
+        animationLoop: false,
+        itemWidth: 1140,
+        slideshow: false
+      });
+    });
+    </script>
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="panel-top" id="panel-fix">
+            <div class="container">
+                <div class="container_in">
+                    <button id="nav-btn" class="cmn-toggle-switch cmn-toggle-switch__htx">
+                        <span>menu</span>
+                    </button>
+                    <ul class="drop-menu">
+                        <li><a href="/">На главную</a></li>
+                        <li><a href="/">О компании</a></li>
+                        <li><a href="/">Каталог продукции</a></li>
+                        <li><a href="/">Акции</a></li>
+                        <li><a href="/">Гарантия</a></li>
+                        <li><a href="/">Контакты</a></li>
+                    </ul>
+                    <div class="header-top_aside">
+                        <a href="#"  class="mobile"><i class="fa fa-sign-in"></i>Войти</a>
+                        <a href="#"  class="mobile"><i class="fa fa-user"></i></a>
+                        <a href="#"  class="mobile"><i class="fa fa-shopping-cart"></i></a>
+                        <a href="/"  class="mobile"><i class="fa  fa-language"></i>Ru</a>
+                        <a href="#"  id="search" class="mobile"><i class="fa fa-search"></i></a>
+                        <a href="#"  class="mobile"><i class="fa fa-phone"></i></a>
+                        <a  href="/" class="header-top_cart">
+                            <i class="icon-sm-cart  ic"></i>
+                            <div class="sm-cart_text">
+                                <p class="product-count">Товаров:<span> 3</span></p>
+                                <p>Сумма:<span> 5.000</span><span>грн.</span></p>
+                            </div>
+                        </a>
+                        <div class="switch-lang">
+                            <div class="lang-wr">
+                                <a href="/" class="lang active">ru</a>
+                            </div>
+                            <div class="lang-wr">
+                                <a href="/" class="lang">ua</a>
+                            </div>
+                        </div>
+                        <div class="form-wr">
+                            <form action="#" class="form-search">
+                                <input type="text" placeholder="Поиск" />
+                                <button  type="submit" class="btn-submit"><i class="icon-search "></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Header content -->
+        <div class="container">
+            <div class="container_in">
+                <aside class="siderbar user-box">
+                    <div class="enter_block">
+                        <a href="#" class="sign-link">Войти на сайт</a>
+                        <a href="#" class="log-link">Зарегистрироватся</a>
+                    </div>
+                    <ul class="socials">
+                        <li><a href="/" target="_blank"><i class="icon-twiiter ic"></i></a></li>
+                        <li><a href="/" target="_blank"><i class="icon-vk ic"></i></a></li>
+                        <li><a href="/" target="_blank"><i class="icon-facebook ic"></i></a></li>
+                        <li><a href="/" target="_blank"><i class="icon-rss ic"></i></a></li>
+                        <li><a href="/" target="_blank"><i class="icon-google ic"></i></a></li>
+                    </ul>
+                    <a href="/" class="btn btn-cart">
+                        <i class="icon-cart ic"></i>
+                        <span class="cart-name">Корзина</span>
+                        <p class="product-count">Товаров:<span> 3</span></p>
+                        <p>Сумма:<span> 5.000</span><span>грн.</span></p>
+                    </a>
+                </aside>
+                <aside class="siderbar contact-box">
+                    <p>Телефон горячей линии</p>
+                    <p class="phone">+12(034) 567 89 10</p>
+                    <p>(пн.-пт. с 9.00 до 18.00)</p>
+                    <div class="call-block">
+                        <a href="/" class=" btn btn-call">Вызвать <span>замерщика</span></a>
+                    </div>
+                </aside>
+                <div class="logo">
+                    <a href="/"><img src="images/logo.png" alt="Nakitel"></a>
+                </div>
+            </div>
+        </div>
+        <!--Products -->
+        <div class="products-list">
+            <div class="container">
+                <ul>
+                    <li class="item">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/doors-img1.jpg" alt="">
+                            </div>
+                            <div class="info-box">
+                                <h3>Двери</h3>
+                                <p>Шпонированные</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/doors-img2.jpg" alt="">
+                            </div>
+                            <div class="info-box">
+                                <h3>Двери</h3>
+                                <p>Экошпон</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/doors-img3.jpg" alt="">
+                            </div>
+                            <div class="info-box">
+                                <h3>Двери</h3>
+                                <p>Из масива</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/doors-img4.jpg" alt="">
+                            </div>
+                            <div class="info-box">
+                                <h3>Двери</h3>
+                                <p>Входные</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="">
+                            <div class="img-box">
+                                <img src="images/doors-img5.jpg" alt="">
+                            </div>
+                            <div class="info-box">
+                                <h3>Двери</h3>
+                                <p>Спец назначения</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Main content -->
+    <div class="main-content">
+       <div class="container">
+        <!--Banner -->
+            <div class="slider">
+              <div class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img src="images/slide-img1.jpg" />
+                    <div class="overflow-text">Дверь на дачу</div>
+                  </li>
+                  <li>
+                    <img src="images/slide-img1.jpg" />
+                    <div class="overflow-text">Дверь на дачу</div>
+                  </li>
+                  <li>
+                    <img src="images/slide-img1.jpg" />
+                    <div class="overflow-text">Дверь на дачу</div>
+                  </li>
+                  <li>
+                    <img src="images/slide-img1.jpg" />
+                    <div class="overflow-text">Дверь на дачу</div>
+                  </li>
+                </ul>
+            </div>
+          </div>
+           <div class="content">
+                <h2>О компании</h2>
+                <div class="content_in">
+                   <aside class=" sidebar main-menu">
+                       <ul>
+                           <li><a href="/" >Главная</a></li>
+                           <li><a href="/" class="active">О компании</a></li>
+                           <li><a href="/">Каталог продукций</a></li>
+                           <li><a href="/">Оплата/доставка</a></li>
+                           <li><a href="/">Акции</a></li>
+                           <li><a href="/">Гарантии</a></li>
+                           <li><a href="/">Контакты</a></li>
+                       </ul>
+                   </aside>
+                   <aside class="sidebar info">
+                        <p>Телефон горячей линии</p>
+                        <p class="phone">+38(067) 402 71 01</p>
+                        <p>(пн.-пт. с 9.00 до 18.00)</p>
+                        <div class="call-block">
+                          <a href="/" class=" btn btn-call">Вызвать <span>замерщика</span></a>
+                        </div>
+                        <div class="banner-block">
+                          <a href="/">Банерная <span>область</span></a>
+                        </div>
+                        <p>Телефон горячей линии</p>
+                        <p class="phone">+38(067) 402 71 01</p>
+                        <p>(пн.-пт. с 9.00 до 18.00)</p>
+                        <div class="call-block">
+                          <a href="/" class=" btn btn-call">Вызвать <span>замерщика</span></a>
+                        </div>
+                        <div class="banner-block">
+                          <a href="/">Банерная <span>область</span></a>
+                        </div>
+                   </aside>
+                   <!--Middle -->
+                   <div class="middle">
+                        <div class="middle_in">
+                           <p>Повседневная практика показывает, что постоянный количественый рост и сфера нашей активности позволяет оценить значение существенных финансовых и административных условий.Значимость этих проблем настолько очевидна, что консультация с широким активом представляет собой интересный эксперимент проверки направлений прогрессивного развития.</p>
+                           <p>Идейные соображения высшего порядка,а также сложившаяся структура организации влечет за собой процесс внедрения и модернизации системы обучения кадров, соответсвует насущным потребностям. </p>
+                           <p>Задача организации, в особенности же дальнейшее развитие различных форм деятельности способствует подготовки и реализации существенных финансовых и административных условий. Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития. С другой стороны сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Равным образом консультация с широким активом играет важную роль в формировании новых предложений. Повседневная практика показывает, что рамки и место обучения кадров способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Равным образом постоянное информационно-пропагандистское обеспечение нашей деятельности играет важную роль в формировании дальнейших направлений развития.</p>
+                           <p>Повседневная практика показывает, что сложившаяся структура организации требуют определения и уточнения модели развития. С другой стороны укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании соответствующий условий активизации. Товарищи! начало повседневной работы по формированию позиции обеспечивает широкому кругу (специалистов) участие в формировании модели развития.</p>
+                           <p>Разнообразный и богатый опыт новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>
+                        </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+    <!--Footer -->
+    <footer class="footer">
+    	<div class="footer-panel">
+    		<div class="footer-panel-in">
+    			<div class="container">
+    				<div class="container_in">
+    					<div class="author">
+    						<a href="/">Nakitel <span>&#169;</span><span>2015</span></a>
+    					</div>
+    					<nav class="footer-menu">
+    						<ul>
+    							<li><a href="/">Контакты</a></li>
+    							<li><a href="">Акции</a></li>
+    							<li><a href="">Каталог</a></li>
+    							<li><a href="">Оплата/Доставка</a></li>
+    							<li><a href="">Гаранития</a></li>
+    						</ul>
+    					</nav>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+</body>
+</html>
